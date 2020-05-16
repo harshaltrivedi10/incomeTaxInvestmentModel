@@ -1,0 +1,150 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Client/Client.master" AutoEventWireup="true" CodeFile="inv_list_detailed.aspx.cs" Inherits="Client_inv_list_detailed" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+
+    <form id="Form1" role="form" runat="server">
+    <div>
+    <ul class="breadcrumb">
+        <li>
+            
+            <a href="index.aspx">Dashboard</a>
+        </li>
+        <li>
+            <a href="inv_list_detailed.aspx">Investment List</a>
+        </li>
+    </ul>
+</div>
+    <div class="row">
+    <div class="box col-md-12">
+        <div class="box-inner">
+            <div class="box-header well" data-original-title="">
+                <h2><i class="glyphicon glyphicon-edit"></i>Investment Full Details</h2>
+
+                <div class="box-icon">
+                    <a href="#" class="btn btn-setting btn-round btn-default"><i
+                            class="glyphicon glyphicon-cog"></i></a>
+                    <a href="#" class="btn btn-minimize btn-round btn-default"><i
+                            class="glyphicon glyphicon-chevron-up"></i></a>
+                    <a href="#" class="btn btn-close btn-round btn-default"><i
+                            class="glyphicon glyphicon-remove"></i></a>
+                </div>
+            </div>
+            <div class="box-content">
+           
+
+                  <table class="nav-justified table table-striped table-bordered bootstrap-datatable datatable responsive">
+                      <tr>
+                          <td colspan="2">
+                              <strong>
+                                  Holder Details
+                              </strong>
+                          </td>
+                      </tr>
+                <tr>
+                    <td>Holder Name</td>
+                    <td>
+                        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Relation Description</td>
+                    <td>
+                        <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Relation Code</td>
+                    <td>
+                        <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
+                    </td>
+                </tr>
+                      <tr>
+                          <td colspan="2">
+                              <strong>
+                                  Investment Details
+                              </strong>
+                          </td>
+                      </tr>
+                <tr>
+                    <td>Tax Code</td>
+                    <td>
+                        <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Policy Description</td>
+                    <td>
+                        <asp:Label ID="Label5" runat="server" Text="Label"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Investment Date</td>
+                    <td>
+                        <asp:Label ID="Label6" runat="server" Text="Label"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Policy/Account/Certificate No</td>
+                    <td>
+                        <asp:Label ID="Label7" runat="server" Text="Label"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sum/Value</td>
+                    <td>
+                        <asp:Label ID="Label8" runat="server" Text="Label"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Premium</td>
+                    <td>
+                        <asp:Label ID="Label9" runat="server" Text="Label"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Installment</td>
+                    <td>
+                        <asp:Label ID="Label10" runat="server" Text="Label"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Maturity</td>
+                    <td>
+                        <asp:Label ID="Label11" runat="server" Text="Label"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Status</td>
+                    <td>
+                        <asp:Label ID="Label12" runat="server" Text="Label"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Creation Date</td>
+                    <td>
+                        <asp:Label ID="Label13" runat="server" Text="Label"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Update Date</td>
+                    <td>
+                        <asp:Label ID="Label14" runat="server" Text="Label"></asp:Label>
+                    </td>
+                </tr>
+                      <tr>
+                          <td colspan="2">
+                              <asp:Button ID="Button1" class="btn btn-default" runat="server" Text="Back" OnClick="Button1_Click"/>
+                          </td>
+                      </tr>
+            </table>          
+            </div>
+      
+        </div>
+      </div>
+    <!--/span-->
+
+</div>
+          </form>
+
+</asp:Content>
+
